@@ -87,10 +87,10 @@ export default () => {
     timeTableFetcher
   )
 
-  const handelJobSelect = (e) => {
+  const handleJobSelect = (e) => {
     send({ type: 'JOB_SELECTED', value: e.target.value })
   }
-  const handelClassSelect = (e) => {
+  const handleClassSelect = (e) => {
     send({ type: 'CLASS_SELECTED', value: e.target.value })
   }
 
@@ -98,7 +98,7 @@ export default () => {
     <>
       <p>{state.value}</p>
       <div>
-        <select onChange={handelJobSelect}>
+        <select onChange={handleJobSelect}>
           {jobData &&
             jobData.map((job) => (
               <option key={job.beruf_id} value={job.beruf_id}>
@@ -109,7 +109,7 @@ export default () => {
       </div>
       <div>
         {!state.matches('selectJob') && (
-          <select onChange={handelClassSelect}>
+          <select onChange={handleClassSelect}>
             {classData &&
               classData.map((schoolClass) => (
                 <option
