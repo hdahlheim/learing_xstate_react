@@ -1,0 +1,30 @@
+{
+  "name": "learing_xstate_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdahlheim/learing_xstate_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdahlheim/learing_xstate_react/issues"
+  },
+  "homepage": "https://github.com/hdahlheim/learing_xstate_react#readme",
+  "dependencies": {
+    "@xstate/react": "^0.8.1",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.0",
+    "xstate": "^4.9.1"
+  }
+}
